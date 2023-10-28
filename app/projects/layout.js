@@ -10,7 +10,7 @@ export default function Page({ projects }) {
   return (
     <div className="container-md">
       <section id="projects" className="section">
-        <HeadingDivider title="Relevant projects" />
+        <HeadingDivider title="Relevant project" />
         <Suspense
           fallback={
             <div className="flex-center">

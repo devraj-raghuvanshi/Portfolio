@@ -39,7 +39,7 @@ export function ProjectItem({ project, index }) {
 							src={image}
 							width={500}
 							height={500}
-							alt="Picture of the author"
+							alt="image"
 						/>
 					</Suspense>
 				</div>
@@ -76,7 +76,7 @@ export function ProjectItem({ project, index }) {
 								title="Go to live address"
 							>
 								<FiExternalLink />
-								<span>Demo</span>
+								<span>View Publication</span>
 							</Link>
 						)}
 					</div>

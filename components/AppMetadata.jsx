@@ -1,12 +1,12 @@
 const author = "Devraj Raghuvanshi";
 const description =
-	"Software developer from India who loves to develop beautiful websites, single page applications, customer relationship management or code from scratch using React and Next.js";
+	"Researcher from India";
 const url = "https://vasile-novatchii.netlify.app";
 export const AppMetadata = {
 	metadataBase: new URL("https://vasile-novatchii.netlify.app/"),
 	title: {
-		default: `Portfolio | ${author}`,
-		template: `%s | ${author}`
+		default: `${author}`,
+		template: `%s${author}`
 	},
 	description: description,
 	icons: {
@@ -14,20 +14,21 @@ export const AppMetadata = {
 	},
 	keywords: [
 		"Devraj Raghuvanshi",
-		"Devraj Raghuvanshi - software developer",
-		"Frontend developer",
-		"Backend developer",
+		"Devraj Raghuvanshi - Researcher",
+		"Data Science",
+		"Artificial Intelligence",
+		"Machine Learning",
 		"Portfolio website",
-		"Frontend Developer Portfolio"
+		"Data Scientist Portfolio"
 	],
 	creator: author,
 	authors: [{ name: author, url: url }],
 	colorScheme: "dark",
 	openGraph: {
-		title: `${author} | Portfolio`,
+		title: `${author}`,
 		description: description,
 		url: url,
-		siteName: `${author} | Portfolio`,
+		siteName: `${author}`,
 		images: [
 			{
 				url: "https://vasile-novatchii.netlify.app/screenshot.webp",

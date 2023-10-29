@@ -16,11 +16,10 @@ export function WelcomeSection() {
 
 	let [count, setCount] = useState(0);
 	const [text] = useState([
-		"love to code",
-		"convert design into modern UI",
-		"build interactive UI using React",
-		"develop websites using Next.js",
-		"am a Gamer",
+		"code",
+		"train deep neural nets",
+		"read books",
+		// "play guitar"
 	]);
 
 	const onClick = (e) => scrollToEl(e);
@@ -53,7 +52,7 @@ export function WelcomeSection() {
 							}}
 						>
 							<p>
-								Hi, I&apos;m <mark>Devraj</mark> a <mark>passionate</mark> software developer.
+								Hi, I&apos;m <mark>Devraj Raghuvanshi</mark>
 							</p>
 						</h1>
 
@@ -67,7 +66,7 @@ export function WelcomeSection() {
 									transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
 								}}
 							>
-								I
+								I like to
 								<span
 									className="absolute flex flex-col transition-all duration-500 ease-in-expo"
 									style={{
@@ -81,7 +80,7 @@ export function WelcomeSection() {
 												: count === 3
 												? "-300%"
 												: "0",
-										left: "13px"
+										left: "78px"
 									}}
 								>
 									{text.map((element) => (
@@ -101,7 +100,7 @@ export function WelcomeSection() {
 								transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
 							}}
 						>
-							Stick around to see some of my work.
+							{/* Stick around to see some of my work. */}
 						</p>
 						<div
 							ref={ref}
@@ -118,7 +117,7 @@ export function WelcomeSection() {
 								className="btn"
 								aria-label="Latest projects"
 							>
-								See my latest projects
+								My Research Projects
 							</Link>
 						</div>
 					</div>

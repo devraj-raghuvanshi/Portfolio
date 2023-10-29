@@ -4,19 +4,19 @@ export const SOCIAL_MEDIA = [
 	{
 		id: "linkedin",
 		icon: <BsLinkedin />,
-		title: "Visit LinkedIn profile",
-		url: "https://www.linkedin.com/in/sarthak-modhe-129032202/"
+		title: "LinkedIn",
+		url: "https://www.linkedin.com/in/devraj-raghuvanshi-a695051b7"
 	},
 	{
 		id: "github",
 		icon: <BsGithub />,
-		title: "Visit Github profile",
-		url: "https://github.com/Sarthak8822"
+		title: "Github",
+		url: "https://github.com/devraj-raghuvanshi"
 	},
 	{
 		id: "mail",
 		icon: <BsFillEnvelopeOpenFill />,
-		title: "Send me an email",
-		url: "mailto://sarthakpravin08@gmail.com"
+		title: "Send an email",
+		url: "mailto:devrajraghu@gmail.com"
 	}
 ];

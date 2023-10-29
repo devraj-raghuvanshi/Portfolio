@@ -16,25 +16,24 @@ export function ProjectsSection() {
 
 	const projects = [
 		{
-			title:"Job Portal",
+			title:"Multimodal Sarcasm Detection",
 			description:'Designed and built a user-friendly platform that accelerated job searches during a recession, resulting in 20 percent faster job loadings, Created and executed a robust user authentication system ensuring secure data storage and retrieval, Successfully merged user profiles and job postings from various sources, optimizing data management and enhancing system efficiency',
-			image: "/images/job-portal.png",
+			image: "/projects/sarcasm1.gif",
 			// liveUrl: "https://sarthakm.netlify.app/",
 			repoUrl: "https://www.github.com/Sarthak8822/Job-Portal",
 		},
 		{
-			title:"Project Title",
+			title:"Semantic Comprehension Framework for Memes",
 			description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quae tempora atque nemo debitis? Earum rep',
-			images: "/images/portfolio.png",
+			image: "/projects/meme1.jpeg",
 			// liveUrl: "https://sarthakm.netlify.app/",
 			repoUrl: "https://www.github.com/Sarthak8822/Job-Portal",
 		},
 		{
-			title:"Project Title",
+			title:"Query-Response System for Agriculture",
 			description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quae tempora atque nemo debitis? Earum rep',
-			images: "/images/portfolio.png",
-			liveUrl: "https://sarthakm.netlify.app/",
-			repoUrl: "https://sarthakm.netlify.app/",
+			image: "/projects/farmer_img.png",
+			liveUrl: "https://www.sciencedirect.com/science/article/abs/pii/S0168169923005689",
 		}
 	]
 

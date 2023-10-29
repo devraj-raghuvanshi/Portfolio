@@ -3,7 +3,7 @@
 import { useRef } from "react";
 import { LazyMotion, domAnimation, useInView } from "framer-motion";
 import { HeadingDivider } from "components";
-import { TimeLine } from "./TimeLine";
+// import { TimeLine } from "./TimeLine";
 
 export function AboutSection() {
 	const ref = useRef(null);
@@ -25,13 +25,13 @@ export function AboutSection() {
 						}}
 					>
 						<p>
-							My name is Devraj. I am persuing B.Tech from SGSITS Indore, Information Technology.
+							I am pursuing my Bachelors in Information Technology from SGSITS Indore.
 						</p>
 						<p>
-							I developed a deep passion for web programming, and I consistently engaged in learning new concepts and techniques in this field.
+							I have developed a deep passion for machine learning, and I am constantly engaged in working on interesting research projects.
 						</p>
-						<p>So, officially, my programming journey began in 2021 as a FrontEnd Developer.</p>
-						<p className="my-3.5">
+						<p>My research journey began in 2022 as a Research Intern at IIT Indore.</p>
+						{/* <p className="my-3.5">
 							I enjoy learning technologies that interest me, which is why I dedicated a significant
 							amount of time to working with NextJS.
 						</p>
@@ -46,11 +46,9 @@ export function AboutSection() {
 							Zomato🍅 as Intern with the possibility of transitioning to AWS. I was skeptical
 							about it at first, but I decided to give it a try, and I don&lsquo;t regret it. Now, I
 							thoroughly enjoy working with FullStack.
-						</p>
+						</p> */}
 					</div>
 				</div>
-
-				<TimeLine />
 			</section>
 		</LazyMotion>
 	);
